@@ -259,7 +259,7 @@ export class ResultadosComponent {
       img: 'assets/img/marcos.png'
     },
     {
-      rodada: '36',
+      rodada: '35',
       time: 'SCCP ELITE DG',
       cartoleiro: 'Douglas',
       pontos: '111,25',
