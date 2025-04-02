@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+html, body {
+  overflow-x: hidden; /* Impede a rolagem horizontal */
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+table {
+  width: 100%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  overflow-x: auto; /* Adicionando rolagem horizontal se necessário */
+}
+th, td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+th {
+  background-color: #a34caf;
+  color: white;
+}
+img {
+  max-width: 30%;
+  height: auto;
+}
+
+.logo {
+  width: 60px;
+  margin-left: 30px;
+}
+
+.titulo {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para o título "Mito da Rodada" */
+caption {
+  background-color: #a34caf;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  caption-side: top;
+  border-bottom: 1px solid white;
+}
+
+/* Estilo para alinhar imagens à esquerda */
+.imgEscudo {
+  display: block; /* Para que a margem funcione corretamente */
+  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  margin-left: 0; /* Remove a margem à esquerda */
+}
+
+.imgTam {
+  width: 108px;
+}
+
+/* Adicionando regras de estilo para telas menores (celulares) */
+@media only screen and (max-width: 600px) {
+  th, td {
+      padding: 6px;
+      font-size: 12px;
+  }
+}
+
+
+
+
+
+
+.premiacoes-title {
+  font-family: 'Arial', sans-serif; /* Escolha uma fonte elegante */
+  font-size: 2.5em; /* Tamanho da fonte */
+  color: #ff6347; /* Tomate */
+  text-align: center; /* Centralizar o texto */
+  text-transform: uppercase; /* Transformar o texto em maiúsculas */
+  letter-spacing: 2px; /* Espaçamento entre letras */
+  background: linear-gradient(90deg, rgba(255, 99, 71, 0.8), rgba(255, 140, 0, 0.8));
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  border-bottom: 3px solid #ff6347; /* Borda inferior */
+  padding-bottom: 10px; /* Espaçamento inferior */
+  margin-bottom: 20px; /* Margem inferior */
+}
+
+.premiacoes-title:hover {
+  color: #ff4500; /* Cor ao passar o mouse */
+  border-bottom-color: #ff4500; /* Alterar a cor da borda ao passar o mouse */
+}
