@@ -105,3 +105,121 @@ caption {
   color: #ff4500; /* Cor ao passar o mouse */
   border-bottom-color: #ff4500; /* Alterar a cor da borda ao passar o mouse */
 }
+
+
+
+
+
+
+
+
+
+.melhor-da-rodada table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.melhor-da-rodada th,
+.melhor-da-rodada td {
+  padding: 6px 8px;
+  text-align: left;
+}
+
+.melhor-da-rodada th {
+  background-color: #a34caf;
+  font-weight: 600;
+}
+
+.melhor-da-rodada td {
+  border-bottom: 1px solid #ddd;
+}
+
+.melhor-da-rodada caption {
+  font-weight: bold;
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.imgEscudo {
+  width: 24px;
+  height: 24px;
+  margin-right: 6px;
+}
+
+.melhor-da-rodada td.d-flex {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.titulo {
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 28px;
+  height: 28px;
+}
+
+
+
+
+
+
+
+section table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+section th,
+section td {
+  padding: 6px 8px;
+  text-align: left;
+}
+
+section th {
+  background-color:  #a34caf;
+  font-weight: 600;
+}
+
+section td {
+  border-bottom: 1px solid #ddd;
+}
+
+caption {
+  font-weight: bold;
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.imgEscudo {
+  width: 24px;
+  height: 24px;
+  margin-right: 6px;
+}
+
+td.d-flex,
+th.d-flex {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.titulo {
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 28px;
+  height: 28px;
+}
+
+

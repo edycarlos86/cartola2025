@@ -10,20 +10,23 @@
         <caption>MITO DA RODADA</caption>
         <thead>
             <tr>
-                <th style="width: 10%;">Rodada</th>
+                <th style="width: 2%;">Rodada</th>
                 <th style="width: 40%;">Time</th>
                 <th style="width: 20%;">Prêmio</th>
                 <th style="width: 20%;">Pontuação</th>
             </tr>
         </thead>
         <tbody *ngFor="let rodada of ListaRodada">
-            <tr class="fw-bold">
+            <tr class="">
                 <td>{{ rodada.rodada }}</td>
                 <td class="d-flex align-items-center">
                   <img class="imgEscudo" src="{{ rodada.img }}" alt="Time 1">
-                  <span >{{ rodada.time}} <br> {{ rodada.cartoleiro }}</span>
+                  <div style="display: flex; flex-direction: column; align-items: flex-start;">
+                    <strong>{{ rodada.time }}</strong>
+                    <span>{{ rodada.cartoleiro }}</span>
+                  </div>
                 </td>
-                <td style="color: #a34caf;">R$ 40,00</td>
+                <td style="color: #a34caf;">R$ 70,00</td>
                 <td style="color: green;">{{ rodada.pontos }}</td>
             </tr>
         </tbody>
@@ -37,18 +40,22 @@
         <caption>TOP 5 DO CAMPEONATO</caption>
         <thead>
           <tr>
-              <th style="width: 10%;">#</th>
+              <th style="width: 2%;">#</th>
               <th style="width: 40%;">Time</th>
               <th style="width: 20%;">Prêmio</th>
               <th style="width: 20%;">Pontuação</th>
           </tr>
       </thead>
       <tbody *ngFor="let time of ListaTop5">
-          <tr class="fw-bold fs-4">
+          <tr>
               <td>{{ time.rodada }}</td>
               <td class="d-flex align-items-center">
                 <img class="imgEscudo" src="{{ time.img }}" alt="Time 1">
-                <span >{{ time.time }} <br> {{ time.cartoleiro }}</span>
+                <div style="display: flex; flex-direction: column; align-items: flex-start;">
+                  <strong>{{ time.time }}</strong>
+                  <span>{{ time.cartoleiro }}</span>
+                </div>
+
               </td>
               <td style="color: #a34caf;">{{ time.premio }}</td>
               <td style="color: green;">{{ time.pontos }}</td>
@@ -90,7 +97,7 @@
         <caption>MITO DO ANO</caption>
         <thead>
             <tr>
-                <th style="width: 10%;">Rodada</th>
+                <th style="width: 2%;">Rodada</th>
                 <th style="width: 40%;">Time</th>
                 <th style="width: 20%;">Prêmio</th>
                 <th style="width: 20%;">Pontuação</th>
@@ -124,7 +131,10 @@
             <tr class="fw-bold">
               <td class="d-flex align-items-center ">
                 <img class="imgEscudo" src="{{ rico.img }}" alt="Time 1">
-                <span >{{ rico.time }} <br> {{ rico.cartoleiro }}</span>
+                <div style="display: flex; flex-direction: column; align-items: flex-start;">
+                  <strong>{{ rico.time }}</strong>
+                  <span>{{ rico.cartoleiro }}</span>
+                </div>
               </td>
                 <td style="color: #a34caf;">R$ 200,00</td>
                 <td style="color: green;">$ {{ rico.cartoletas }}</td>
@@ -134,7 +144,7 @@
     </section>
 
     <!--CAMPEÃO 1º TURNO -->
-    <section class="mt-5">
+   <!--  <section class="mt-5">
       <H1 class="premiacoes-title">PREMIAÇÕES EXTRAS</H1>
       <table>
         <caption>CAMPEÃO 1º TURNO</caption>
@@ -158,10 +168,10 @@
           </tr>
       </tbody>
     </table>
-    </section>
+    </section> -->
 
     <!-- MATA MATA CAMPEÕES -->
-    <section>
+  <!--   <section>
       <table>
         <caption>CAMPEÕES DO MATA MATA CARTOLANO</caption>
         <thead>
@@ -182,7 +192,7 @@
             </tr>
         </tbody>
     </table>
-    </section>
+    </section> -->
 
 
 
