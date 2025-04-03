@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class MenuComponent {
 
+  fecharMenu() {
+    const navbar = document.getElementById('navbarNav');
+    const navbarToggler = document.querySelector('.navbar-toggler') as HTMLElement;
+
+    if (navbar?.classList.contains('show')) {
+      navbarToggler?.click(); // simula clique no botão para retrair
+    }
+  }
+
+
 }
