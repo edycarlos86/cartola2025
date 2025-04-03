@@ -1,4 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-  padding-top: 70px; /* ajuste conforme a altura da navbar */
+  padding-top: 20px; /* ajuste conforme a altura da navbar */
 }
+
+
+
+
+/* modo dark */
+
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.dark-mode .navbar,
+.dark-mode .table,
+.dark-mode .card {
+  background-color: #1e1e1e !important;
+  color: #ffffff;
+}
+
+.dark-mode .table th,
+.dark-mode .table td {
+  border-color: #333;
+}
+
+.dark-mode .nav-link,
+.dark-mode .navbar-brand {
+  color: #f1f1f1 !important;
+}
+

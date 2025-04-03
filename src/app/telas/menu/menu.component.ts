@@ -16,5 +16,10 @@ export class MenuComponent {
     }
   }
 
+  alternarModoEscuro() {
+    document.body.classList.toggle('dark-mode');
+  }
+
+
 
 }

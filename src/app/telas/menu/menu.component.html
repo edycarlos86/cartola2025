@@ -24,9 +24,26 @@
 </nav>
  -->
 
+
+
+
+
+
+
+
+
+
+
+
+<!--
  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
   <div class="container-fluid">
     <a class="navbar-brand fw-bold text-warning" href="#">Cartolanos</a>
+
+    <button class="btn btn-sm btn-outline-light ms-2" (click)="alternarModoEscuro()">
+      🌙
+    </button>
+
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,5 +67,32 @@
       </ul>
     </div>
   </div>
+</nav> -->
+
+
+
+
+
+
+
+
+
+<nav class="bottom-nav d-flex justify-content-around align-items-center">
+  <a routerLink="/resultados" class="nav-item text-center">
+    <i class="bi bi-bar-chart-line"></i>
+    <span>Resultados</span>
+  </a>
+  <a routerLink="/classificacao" class="nav-item text-center">
+    <i class="bi bi-list-ol"></i>
+    <span>Classificação</span>
+  </a>
+  <a routerLink="/premiacao" class="nav-item text-center">
+    <i class="bi bi-cash-coin"></i>
+    <span>Premiação</span>
+  </a>
+  <a routerLink="/regras" class="nav-item text-center">
+    <i class="bi bi-exclamation-circle"></i>
+    <span>Regras</span>
+  </a>
 </nav>
 
