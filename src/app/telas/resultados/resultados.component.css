@@ -18,13 +18,13 @@ table {
   margin: 20px auto;
   border-collapse: collapse;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+
   overflow-x: auto; /* Adicionando rolagem horizontal se necessário */
 }
 th, td {
   padding: 8px;
   text-align: center;
-  border-bottom: 1px solid #ddd;
+
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -131,9 +131,9 @@ caption {
   font-weight: 600;
 }
 
-.melhor-da-rodada td {
+/* .melhor-da-rodada td {
   border-bottom: 1px solid #ddd;
-}
+} */
 
 .melhor-da-rodada caption {
   font-weight: bold;
@@ -170,12 +170,7 @@ caption {
 
 
 
-section table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 14px;
-  margin-bottom: 20px;
-}
+
 
 section th,
 section td {
@@ -188,9 +183,7 @@ section th {
   font-weight: 600;
 }
 
-section td {
-  border-bottom: 1px solid #ddd;
-}
+
 
 caption {
   font-weight: bold;
@@ -223,3 +216,48 @@ th.d-flex {
 }
 
 
+
+
+
+
+
+
+
+/* TABELAS MODO CLARO */
+body:not(.dark-mode) table {
+  background-color: #fff;
+}
+body:not(.dark-mode) th,
+body:not(.dark-mode) td {
+  border-bottom: 1px solid #ddd;
+}
+
+/* TABELAS MODO ESCURO - ESTILO FANTASY */
+body.dark-mode table {
+  background-color: #0c1e36 !important;
+  color: #f1f1f1 !important;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+body.dark-mode th {
+  background-color: #122640 !important;
+  color: #ffffff !important;
+}
+
+body.dark-mode td {
+  border-bottom: 1px solid #1a2c48 !important;
+}
+
+body.dark-mode tbody tr:nth-child(even) {
+  background-color: #0e223a !important;
+}
+
+body.dark-mode tbody tr:nth-child(odd) {
+  background-color: #0c1e36 !important;
+}
+
+body.dark-mode tbody tr:hover {
+  background-color: #1d3557 !important;
+  cursor: pointer;
+}

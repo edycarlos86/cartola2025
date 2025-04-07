@@ -1,0 +1,199 @@
+<!-- MITO DA RODADA -->
+
+
+    <section class="melhor-da-rodada">
+      <header class="titulo d-flex">
+        <img class="logo" src="assets/img/logoCartolano.png" alt="">
+        <h2>Liga dos Campeões Cartolanos 2025</h2>
+    </header>
+    <table>
+        <caption>MITO DA RODADA</caption>
+        <thead>
+            <tr>
+                <th style="width: 2%;">Rodada</th>
+                <th style="width: 40%;">Time</th>
+                <th style="width: 20%;">Prêmio</th>
+                <th style="width: 20%;">Pontuação</th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let rodada of ListaRodada">
+            <tr class="">
+                <td>{{ rodada.rodada }}</td>
+                <td class="d-flex align-items-center">
+                  <img class="imgEscudo" src="{{ rodada.img }}" alt="Time 1">
+                  <div style="display: flex; flex-direction: column; align-items: flex-start;">
+                    <strong>{{ rodada.time }}</strong>
+                    <span>{{ rodada.cartoleiro }}</span>
+                  </div>
+                </td>
+                <td style="color: #a34caf;">R$ 70,00</td>
+                <td style="color: green;">{{ rodada.pontos }}</td>
+            </tr>
+        </tbody>
+    </table>
+    </section>
+
+    <!--top 5 anual -->
+    <section class="mt-5">
+
+      <table>
+        <caption>TOP 5 DO CAMPEONATO</caption>
+        <thead>
+          <tr>
+              <th style="width: 2%;">#</th>
+              <th style="width: 40%;">Time</th>
+              <th style="width: 20%;">Prêmio</th>
+              <th style="width: 20%;">Pontuação</th>
+          </tr>
+      </thead>
+      <tbody *ngFor="let time of ListaTop5">
+          <tr>
+              <td>{{ time.rodada }}</td>
+              <td class="d-flex align-items-center">
+                <img class="imgEscudo" src="{{ time.img }}" alt="Time 1">
+                <div style="display: flex; flex-direction: column; align-items: flex-start;">
+                  <strong>{{ time.time }}</strong>
+                  <span>{{ time.cartoleiro }}</span>
+                </div>
+
+              </td>
+              <td style="color: #a34caf;">{{ time.premio }}</td>
+              <td style="color: green;">{{ time.pontos }}</td>
+          </tr>
+      </tbody>
+    </table>
+    </section>
+
+     <!--top 5 2º Turno -->
+     <!-- <section class="mt-5">
+
+      <table>
+        <caption>TOP 5 DO 2º TURNO</caption>
+        <thead>
+          <tr>
+              <th style="width: 10%;">#</th>
+              <th style="width: 40%;">Time</th>
+              <th style="width: 20%;">Prêmio</th>
+              <th style="width: 20%;">Pontuação</th>
+          </tr>
+      </thead>
+      <tbody *ngFor="let time of ListaTurno2">
+          <tr class="fw-bold fs-4">
+              <td>{{ time.rodada }}</td>
+              <td class="d-flex align-items-center">
+                <img class="imgEscudo" src="{{ time.img }}" alt="Time 1">
+                <span >{{ time.time }} <br> {{ time.cartoleiro }}</span>
+              </td>
+              <td style="color: #a34caf;">{{ time.premio }}</td>
+              <td style="color: green;">{{ time.pontos }}</td>
+          </tr>
+      </tbody>
+    </table>
+    </section> -->
+
+    <!-- MITO DO ANO -->
+    <section>
+      <table>
+        <caption>MITO DO ANO</caption>
+        <thead>
+            <tr>
+                <th style="width: 2%;">Rodada</th>
+                <th style="width: 40%;">Time</th>
+                <th style="width: 20%;">Prêmio</th>
+                <th style="width: 20%;">Pontuação</th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let mito of ListaMito">
+            <tr class="fw-bold">
+                <td>{{ mito.rodada }}</td>
+                <td class="d-flex align-items-center">
+                  <img class="imgEscudo" src="{{ mito.img }}" alt="Time 1">
+                  <span >{{ mito.time }} <br> {{ mito.cartoleiro }}</span>
+                </td>
+                <td style="color: #a34caf;">R$ 230,00</td>
+                <td style="color: green;">{{ mito.pontos }}</td>
+            </tr>
+        </tbody>
+    </table>
+    </section>
+    <!-- TIME MAIS RICO -->
+    <section>
+      <table>
+        <caption>TIME MAIS RICO</caption>
+        <thead>
+            <tr>
+                <th style="width: 40%;">Time</th>
+                <th style="width: 20%;">Prêmio</th>
+                <th style="width: 20%;">C$</th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let rico of ListaMaisRico">
+            <tr class="fw-bold">
+              <td class="d-flex align-items-center ">
+                <img class="imgEscudo" src="{{ rico.img }}" alt="Time 1">
+                <div style="display: flex; flex-direction: column; align-items: flex-start;">
+                  <strong>{{ rico.time }}</strong>
+                  <span>{{ rico.cartoleiro }}</span>
+                </div>
+              </td>
+                <td style="color: #a34caf;">R$ 200,00</td>
+                <td style="color: green;">$ {{ rico.cartoletas }}</td>
+            </tr>
+        </tbody>
+    </table>
+    </section>
+
+    <!--CAMPEÃO 1º TURNO -->
+   <!--  <section class="mt-5">
+      <H1 class="premiacoes-title">PREMIAÇÕES EXTRAS</H1>
+      <table>
+        <caption>CAMPEÃO 1º TURNO</caption>
+        <thead>
+          <tr>
+              <th style="width: 10%;">#</th>
+              <th style="width: 40%;">Time</th>
+              <th style="width: 20%;">Prêmio</th>
+              <th style="width: 20%;">Pontuação</th>
+          </tr>
+      </thead>
+      <tbody *ngFor="let turno of ListaTurno1">
+          <tr class="fw-bold fs-4">
+              <td>{{ turno.rodada }}</td>
+              <td class="d-flex align-items-center">
+                <img class="imgEscudo" src="{{ turno.img }}" alt="Time 1">
+                <span >{{ turno.time }} <br> {{ turno.cartoleiro }}</span>
+              </td>
+              <td style="color: #a34caf;">{{ turno.premio }}</td>
+              <td style="color: green;">{{ turno.pontos }}</td>
+          </tr>
+      </tbody>
+    </table>
+    </section> -->
+
+    <!-- MATA MATA CAMPEÕES -->
+  <!--   <section>
+      <table>
+        <caption>CAMPEÕES DO MATA MATA CARTOLANO</caption>
+        <thead>
+            <tr>
+              <th style="width: 20%;">Campeão</th>
+                <th style="width: 40%;">Time</th>
+                <th style="width: 20%;">Prêmio</th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let mito of ListaMataMata">
+            <tr class="fw-bold fs-5">
+                <td>{{ mito.campeao }}</td>
+                <td class="d-flex align-items-center justify-content-center text-center">
+                  <img class="imgEscudo" src="{{ mito.img }}" alt="Time 1">
+                  <span >{{ mito.time }} <br> {{ mito.cartoleiro }}</span>
+                </td>
+                <td style="color: #a34caf;">R$ 100,00</td>
+            </tr>
+        </tbody>
+    </table>
+    </section> -->
+
+
+
+

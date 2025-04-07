@@ -2,12 +2,19 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 
 
 
+
+
+
 @Component({
   selector: 'app-resultados',
   templateUrl: './resultados.component.html',
   styleUrls: ['./resultados.component.css']
 })
+
+
+
 export class ResultadosComponent {
+  isDarkMode: boolean = false;
 
   ListaRodada = [
     {
@@ -16,6 +23,14 @@ export class ResultadosComponent {
       cartoleiro: 'Matheus Almeida',
       img: 'assets/img/jovem PST.png',
       pontos: '99,28',
+      imgTam: 'imgTam'
+    },
+    {
+      rodada: '2',
+      time: 'raonymarlyn',
+      cartoleiro: 'Raony Marlyn',
+      img: 'assets/img/raonymarlyn.png',
+      pontos: '107,92',
       imgTam: 'imgTam'
 
     },
@@ -40,41 +55,41 @@ export class ResultadosComponent {
       rodada: '1',
       time: 'Jovem PST',
       cartoleiro: 'Matheus Almeida',
-      pontos: '99.28',
+      pontos: '196,50',
       img: 'assets/img/jovem PST.png',
       premio: 'R$ 1.200,00',
     },
     {
       rodada: '2',
-      time: 'Estrela Do Kemel',
-      cartoleiro: 'Vitinho777',
-      pontos: '91.65',
-      img: 'assets/img/Estrela Do Kemel.png',
-      premio: 'R$ 700,00'
+      time: 'Amorins V',
+      cartoleiro: 'Ednaldo Amorim',
+      pontos: '182,76',
+      img: 'assets/img/Amorins V.png',
+      premio: 'R$ 700,00',
     },
     {
       rodada: '3',
-      time: 'Amorins V',
-      cartoleiro: 'Bruno',
-      pontos: '89.58',
-      img: 'assets/img/Amorins V.png',
+      time: 'OTAN 01',
+      cartoleiro: 'Diego',
+      pontos: '179,20',
+      img: 'assets/img/OTAN 01.png',
       premio: 'R$ 385,00',
     },
     {
       rodada: '4',
-      time: 'OTAN 01',
-      cartoleiro: 'Diego',
-      pontos: '89.58',
-      img: 'assets/img/OTAN 01.png',
+      time: 'S.E Malte Puro',
+      cartoleiro: 'Thiago Gouveia',
+      pontos: '178,73',
+      img: 'assets/img/Amorins V.png',
       premio: 'R$ 250,00',
     },
 
     {
       rodada: '5',
-      time: 'JJN FC SP',
-      cartoleiro: 'Jairo',
+      time: 'Rodrigo FC 29',
+      cartoleiro: 'Rodrigo',
       pontos: '83.28',
-      img: 'assets/img/JJN FC SP.png',
+      img: 'assets/img/rodrigo.png',
       premio: 'R$ 150,00',
     },
 
@@ -83,11 +98,11 @@ export class ResultadosComponent {
 
   ListaMito = [
     {
-      rodada: '1',
-      time: 'Jovem PST',
-      cartoleiro: 'Matheus Almeida',
-      pontos: '99.28',
-      img: 'assets/img/jovem PST.png',
+      rodada: '2',
+      time: 'raonymarlyn',
+      cartoleiro: 'Raony Marlyn',
+      img: 'assets/img/raonymarlyn.png',
+      pontos: '107,92',
     },
   ]
 
@@ -96,7 +111,7 @@ export class ResultadosComponent {
       rodada: '-',
       time: 'Amorins V',
       cartoleiro: 'Ednaldo',
-      cartoletas: '131,24',
+      cartoletas: '146,13',
       img: 'assets/img/Amorins V.png'
     },
   ]

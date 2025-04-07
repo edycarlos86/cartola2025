@@ -30,3 +30,94 @@ body.dark-mode {
   color: #f1f1f1 !important;
 }
 
+
+
+/* Claro */
+section table {
+  background-color: #fff;
+}
+
+section td {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Escuro */
+body.dark-mode section table {
+  background-color: #0c1e36 !important;
+}
+
+body.dark-mode section td {
+  border-bottom: 1px solid #1a2c48 !important;
+}
+
+body.dark-mode section tr:nth-child(even) {
+  background-color: #0e223a !important;
+}
+
+body.dark-mode section tr:nth-child(odd) {
+  background-color: #0c1e36 !important;
+}
+
+body.dark-mode section tr:hover {
+  background-color: #1d3557 !important;
+}
+
+
+
+
+
+
+
+
+
+/* TABELA DARK ESTILO APP DE FUTEBOL */
+body.dark-mode table {
+  width: 100%;
+  background-color: #0c1e36;
+  color: #f1f1f1;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 0.9rem;
+}
+
+body.dark-mode caption {
+  background-color: #a34caf;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px 16px;
+  font-size: 1rem;
+}
+
+body.dark-mode thead {
+  background-color: #122640;
+  color: #ffffff;
+}
+
+body.dark-mode th,
+body.dark-mode td {
+  padding: 12px;
+  border-bottom: 1px solid #1a2c48;
+  vertical-align: middle;
+}
+
+body.dark-mode tbody tr:nth-child(even) {
+  background-color: #0e223a;
+}
+
+body.dark-mode tbody tr:nth-child(odd) {
+  background-color: #0c1e36;
+}
+
+body.dark-mode tbody tr:hover {
+  background-color: #1d3557;
+  cursor: pointer;
+}
+
+body.dark-mode img.imgEscudo {
+  width: 28px;
+  height: 28px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
