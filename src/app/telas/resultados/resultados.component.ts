@@ -19,9 +19,9 @@ export class ResultadosComponent {
   ListaRodada = [
     {
       rodada: '1',
-      time: 'Jovem PST',
+      time: 'Matheus Almeida Anual',
       cartoleiro: 'Matheus Almeida',
-      img: 'assets/img/jovem PST.png',
+      img: 'assets/img/Matheus.png',
       pontos: '99,28',
       imgTam: 'imgTam'
     },
@@ -34,6 +34,16 @@ export class ResultadosComponent {
       imgTam: 'imgTam'
 
     },
+    {
+      rodada: '3',
+      time: 'Bruninho Sport FC Anual',
+      cartoleiro: 'Bruno Santos',
+      img: 'assets/img/Bruno.png',
+      pontos: '113,92',
+      imgTam: 'imgTam'
+
+    },
+
 
   ]
 
@@ -53,43 +63,43 @@ export class ResultadosComponent {
   ListaTop5 = [
     {
       rodada: '1',
-      time: 'Jovem PST',
-      cartoleiro: 'Matheus Almeida',
-      pontos: '196,50',
-      img: 'assets/img/jovem PST.png',
+      time: 'Bruninho Sport FC Anual',
+      cartoleiro: 'Bruno Santos',
+      img: 'assets/img/Bruno.png',
+      pontos: '271,19',
       premio: 'R$ 1.200,00',
     },
     {
       rodada: '2',
-      time: 'Amorins V',
-      cartoleiro: 'Ednaldo Amorim',
-      pontos: '182,76',
-      img: 'assets/img/Amorins V.png',
+      time: 'OTAN 01',
+      cartoleiro: 'Diego',
+      pontos: '262,32',
+      img: 'assets/img/OTAN 01.png',
       premio: 'R$ 700,00',
     },
     {
       rodada: '3',
-      time: 'OTAN 01',
-      cartoleiro: 'Diego',
-      pontos: '179,20',
-      img: 'assets/img/OTAN 01.png',
+      time: 'Rodrigo FC 29',
+      cartoleiro: 'Rodrigo',
+      pontos: '260,03',
+      img: 'assets/img/rodrigo.png',
       premio: 'R$ 385,00',
     },
     {
       rodada: '4',
-      time: 'S.E Malte Puro',
-      cartoleiro: 'Thiago Gouveia',
-      pontos: '178,73',
-      img: 'assets/img/Amorins V.png',
+      time: 'Edytricoloor V',
+      cartoleiro: 'Edy',
+      pontos: '259,86',
+      img: 'assets/img/EdyV.png',
       premio: 'R$ 250,00',
     },
 
     {
       rodada: '5',
-      time: 'Rodrigo FC 29',
-      cartoleiro: 'Rodrigo',
-      pontos: '83.28',
-      img: 'assets/img/rodrigo.png',
+      time: 'Imbatível4.7#',
+      cartoleiro: 'Sidcley Cavalcanti',
+      pontos: '258,99',
+      img: 'assets/img/sidcley.png',
       premio: 'R$ 150,00',
     },
 
@@ -99,10 +109,10 @@ export class ResultadosComponent {
   ListaMito = [
     {
       rodada: '2',
-      time: 'raonymarlyn',
-      cartoleiro: 'Raony Marlyn',
-      img: 'assets/img/raonymarlyn.png',
-      pontos: '107,92',
+      time: 'Bruninho Sport FC Anual',
+      cartoleiro: 'Bruno Santos',
+      img: 'assets/img/Bruno.png',
+      pontos: '113,92',
     },
   ]
 
@@ -111,12 +121,12 @@ export class ResultadosComponent {
       rodada: '-',
       time: 'Amorins V',
       cartoleiro: 'Ednaldo',
-      cartoletas: '146,13',
+      cartoletas: '155,04',
       img: 'assets/img/Amorins V.png'
     },
   ]
 
-  ListaMataMata = [
+ /*  ListaMataMata = [
     {
       campeao: '1',
       time: 'Edytricoloor',
@@ -148,5 +158,5 @@ export class ResultadosComponent {
       cartoleiro: 'Tony',
       img: 'assets/img/tony.webp'
     },
-  ]
+  ] */
 }
