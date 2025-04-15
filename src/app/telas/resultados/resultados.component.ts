@@ -126,7 +126,7 @@ export class ResultadosComponent {
     },
   ]
 
- /*  ListaMataMata = [
+  ListaMataMata = [
     {
       campeao: '1',
       time: 'Edytricoloor',
@@ -158,5 +158,5 @@ export class ResultadosComponent {
       cartoleiro: 'Tony',
       img: 'assets/img/tony.webp'
     },
-  ] */
+  ] 
 }
