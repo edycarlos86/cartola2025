@@ -41,7 +41,14 @@ export class ResultadosComponent {
       img: 'assets/img/Bruno.png',
       pontos: '113,92',
       imgTam: 'imgTam'
-
+    },
+    {
+      rodada: '4',
+      time: 'Rodrigo FC 29',
+      cartoleiro: 'Rodrigo',
+      pontos: '138,66',
+      img: 'assets/img/rodrigo.png',
+      imgTam: 'imgTam'
     },
 
 
@@ -63,43 +70,43 @@ export class ResultadosComponent {
   ListaTop5 = [
     {
       rodada: '1',
-      time: 'Bruninho Sport FC Anual',
-      cartoleiro: 'Bruno Santos',
-      img: 'assets/img/Bruno.png',
-      pontos: '271,19',
+      time: 'Rodrigo FC 29',
+      cartoleiro: 'Rodrigo',
+      pontos: '398,69',
+      img: 'assets/img/rodrigo.png',
       premio: 'R$ 1.200,00',
     },
     {
       rodada: '2',
-      time: 'OTAN 01',
-      cartoleiro: 'Diego',
-      pontos: '262,32',
-      img: 'assets/img/OTAN 01.png',
+      time: 'Imbatível4.7#',
+      cartoleiro: 'Sidcley Cavalcanti',
+      pontos: '379,35',
+      img: 'assets/img/sidcley.png',
       premio: 'R$ 700,00',
     },
     {
       rodada: '3',
-      time: 'Rodrigo FC 29',
-      cartoleiro: 'Rodrigo',
-      pontos: '260,03',
-      img: 'assets/img/rodrigo.png',
+      time: 'Bruninho Sport FC Anual',
+      cartoleiro: 'Bruno Santos',
+      img: 'assets/img/Bruno.png',
+      pontos: '371,91',
       premio: 'R$ 385,00',
     },
     {
       rodada: '4',
-      time: 'Edytricoloor V',
-      cartoleiro: 'Edy',
-      pontos: '259,86',
-      img: 'assets/img/EdyV.png',
+      time: 'Queimada dos Loiolas',
+      cartoleiro: 'Igor Loiola',
+      pontos: '367,71',
+      img: 'assets/img/igor.png',
       premio: 'R$ 250,00',
     },
 
     {
       rodada: '5',
-      time: 'Imbatível4.7#',
-      cartoleiro: 'Sidcley Cavalcanti',
-      pontos: '258,99',
-      img: 'assets/img/sidcley.png',
+      time: 'JJN FC SP',
+      cartoleiro: 'Jairo',
+      pontos: '363,98',
+      img: 'assets/img/JJN FC SP.png',
       premio: 'R$ 150,00',
     },
 
@@ -107,12 +114,13 @@ export class ResultadosComponent {
   ]
 
   ListaMito = [
+
     {
-      rodada: '2',
-      time: 'Bruninho Sport FC Anual',
-      cartoleiro: 'Bruno Santos',
-      img: 'assets/img/Bruno.png',
-      pontos: '113,92',
+      rodada: '4',
+      time: 'Rodrigo FC 29',
+      cartoleiro: 'Rodrigo',
+      pontos: '138,66',
+      img: 'assets/img/rodrigo.png',
     },
   ]
 
@@ -121,7 +129,7 @@ export class ResultadosComponent {
       rodada: '-',
       time: 'Amorins V',
       cartoleiro: 'Ednaldo',
-      cartoletas: '155,04',
+      cartoletas: '160,34',
       img: 'assets/img/Amorins V.png'
     },
   ]
@@ -158,5 +166,5 @@ export class ResultadosComponent {
       cartoleiro: 'Tony',
       img: 'assets/img/tony.webp'
     },
-  ] 
+  ]
 }

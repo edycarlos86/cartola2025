@@ -15,14 +15,19 @@ export class ClassificacaoComponent {
     },
     {
       rodada: '2',
-      fileUrlRodada: 'assets/pdf/rodada2-geral.pdf',
+      fileUrlRodada: 'assets/pdf/rodada2-rodada.pdf',
       fileUrlGeral: 'assets/pdf/rodada2-geral.pdf'
     },
     {
       rodada: '3',
-      fileUrlRodada: 'assets/pdf/rodada3-geral.pdf',
+      fileUrlRodada: 'assets/pdf/rodada3-rodada.pdf',
       fileUrlGeral: 'assets/pdf/rodada3-geral.pdf'
     },
+    {
+      rodada: '4',
+      fileUrlRodada: 'assets/pdf/rodada4-rodada.pdf',
+      fileUrlGeral: 'assets/pdf/rodada4-geral.pdf'
+    }
   ]
 
 
