@@ -50,6 +50,15 @@ export class ResultadosComponent {
       img: 'assets/img/rodrigo.png',
       imgTam: 'imgTam'
     },
+    {
+      rodada: '5',
+      time: 'boyzinh04.fc',
+      cartoleiro: 'Marcos Carpim',
+      pontos: '103,27',
+      img: 'assets/img/boyzinh04.fc.png',
+      imgTam: 'imgTam'
+
+    },
 
 
   ]
@@ -72,7 +81,7 @@ export class ResultadosComponent {
       rodada: '1',
       time: 'Rodrigo FC 29',
       cartoleiro: 'Rodrigo',
-      pontos: '398,69',
+      pontos: '482,81',
       img: 'assets/img/rodrigo.png',
       premio: 'R$ 1.200,00',
     },
@@ -80,7 +89,7 @@ export class ResultadosComponent {
       rodada: '2',
       time: 'Imbatível4.7#',
       cartoleiro: 'Sidcley Cavalcanti',
-      pontos: '379,35',
+      pontos: '464,63',
       img: 'assets/img/sidcley.png',
       premio: 'R$ 700,00',
     },
@@ -89,26 +98,27 @@ export class ResultadosComponent {
       time: 'Bruninho Sport FC Anual',
       cartoleiro: 'Bruno Santos',
       img: 'assets/img/Bruno.png',
-      pontos: '371,91',
+      pontos: '457,43',
       premio: 'R$ 385,00',
     },
     {
       rodada: '4',
-      time: 'Queimada dos Loiolas',
-      cartoleiro: 'Igor Loiola',
-      pontos: '367,71',
-      img: 'assets/img/igor.png',
+      time: 'boyzinho04.fc',
+      cartoleiro: 'Marcos Caspim',
+      pontos: '446,46',
+      img: 'assets/img/boyzinh04.fc.png',
       premio: 'R$ 250,00',
     },
 
     {
       rodada: '5',
-      time: 'JJN FC SP',
-      cartoleiro: 'Jairo',
-      pontos: '363,98',
-      img: 'assets/img/JJN FC SP.png',
+      time: 'Muleques do Futebol FC',
+      cartoleiro: 'Wesllen Machados',
+      pontos: '445,50',
+      img: 'assets/img/wesllen.png',
       premio: 'R$ 150,00',
     },
+
 
 
   ]
@@ -129,12 +139,12 @@ export class ResultadosComponent {
       rodada: '-',
       time: 'Amorins V',
       cartoleiro: 'Ednaldo',
-      cartoletas: '160,34',
+      cartoletas: '165,43',
       img: 'assets/img/Amorins V.png'
     },
   ]
 
-  ListaMataMata = [
+  /* ListaMataMata = [
     {
       campeao: '1',
       time: 'Edytricoloor',
@@ -166,5 +176,5 @@ export class ResultadosComponent {
       cartoleiro: 'Tony',
       img: 'assets/img/tony.webp'
     },
-  ]
+  ] */
 }
