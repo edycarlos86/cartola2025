@@ -66,6 +66,14 @@ export class ResultadosComponent {
       img: 'assets/img/antonio.png',
       imgTam: 'imgTam'
     },
+    {
+      rodada: '7',
+      time: 'Serrote Sport Club',
+      cartoleiro: 'Brivaldo',
+      pontos: '127,21',
+      img: 'assets/img/brivaldo.png',
+      imgTam: 'imgTam'
+    },
 
 
   ]
@@ -88,7 +96,7 @@ export class ResultadosComponent {
       rodada: '1',
       time: 'Rodrigo FC 29',
       cartoleiro: 'Rodrigo',
-      pontos: '607,27',
+      pontos: '698,76',
       img: 'assets/img/rodrigo.png',
       premio: 'R$ 1.200,00',
     },
@@ -96,32 +104,32 @@ export class ResultadosComponent {
       rodada: '2',
       time: 'boyzinho04.fc',
       cartoleiro: 'Marcos Caspim',
-      pontos: '563,31',
+      pontos: '673,90',
       img: 'assets/img/boyzinh04.fc.png',
       premio: 'R$ 700,00',
     },
     {
       rodada: '3',
-      time: 'bahea tricolor d aço',
-      cartoleiro: 'Antônio',
-      pontos: '558,41',
-      img: 'assets/img/antonio.png',
+      time: 'Imbatível4.7#',
+      cartoleiro: 'Sidcley Cavalcanti',
+      pontos: '657,12',
+      img: 'assets/img/sidcley.png',
       premio: 'R$ 385,00',
     },
     {
       rodada: '4',
-      time: 'Bruninho Sport FC Anual',
-      cartoleiro: 'Bruno Santos',
-      img: 'assets/img/Bruno.png',
-      pontos: '552,74',
+      time: 'bahea tricolor d aço',
+      cartoleiro: 'Antônio',
+      pontos: '656,60',
+      img: 'assets/img/antonio.png',
       premio: 'R$ 250,00',
     },
     {
       rodada: '5',
-      time: 'Imbatível4.7#',
-      cartoleiro: 'Sidcley Cavalcanti',
-      pontos: '552,08',
-      img: 'assets/img/sidcley.png',
+      time: 'Queimada dos Loiolas',
+      cartoleiro: 'Igor Loiola',
+      pontos: '647,24',
+      img: 'assets/img/igor.png',
       premio: 'R$ 150,00',
     },
 
@@ -129,7 +137,7 @@ export class ResultadosComponent {
 
 
 
- 
+
 
 
   ]
@@ -146,12 +154,19 @@ export class ResultadosComponent {
   ]
 
   ListaMaisRico = [
-    {
+   /*  {
       rodada: '-',
       time: 'Edytricoloor V',
       cartoleiro: 'Edy',
       cartoletas: '174,39',
       img: 'assets/img/EdyV.png'
+    }, */
+    {
+      rodada: '-',
+      time: 'Amorins V',
+      cartoleiro: 'Ednaldo Amorim',
+      cartoletas: '190,82',
+      img: 'assets/img/Amorins V.png'
     },
   ]
 
