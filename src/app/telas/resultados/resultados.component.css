@@ -6,7 +6,7 @@ body {
 }
 
 html, body {
-  overflow-x: hidden;
+  overflow-x: hidden; /* Impede a rolagem horizontal */
 }
 
 h1 {
@@ -18,13 +18,13 @@ table {
   margin: 20px auto;
   border-collapse: collapse;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-
-  overflow-x: auto;
+  background-color: #fff;
+  overflow-x: auto; /* Adicionando rolagem horizontal se necessário */
 }
 th, td {
   padding: 8px;
   text-align: center;
-
+  border-bottom: 1px solid #ddd;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -50,12 +50,9 @@ img {
   justify-content: center;
 }
 
-
+/* Estilos para o título "Mito da Rodada" */
 caption {
-  background-color: #073841;
-  /* background-color: #a34caf; */
-
-
+  background-color: #a34caf;
   color: white;
   padding: 10px;
   font-size: 18px;
@@ -64,18 +61,18 @@ caption {
   border-bottom: 1px solid white;
 }
 
-
+/* Estilo para alinhar imagens à esquerda */
 .imgEscudo {
-  display: block;
-  margin: 0 auto;
-  margin-left: 0;
+  display: block; /* Para que a margem funcione corretamente */
+  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  margin-left: 0; /* Remove a margem à esquerda */
 }
 
 .imgTam {
   width: 108px;
 }
 
-
+/* Adicionando regras de estilo para telas menores (celulares) */
 @media only screen and (max-width: 600px) {
   th, td {
       padding: 6px;
@@ -89,24 +86,24 @@ caption {
 
 
 .premiacoes-title {
-  font-family: 'Arial', sans-serif;
-  font-size: 2.5em;
-  color: #ff6347;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  font-family: 'Arial', sans-serif; /* Escolha uma fonte elegante */
+  font-size: 2.5em; /* Tamanho da fonte */
+  color: #ff6347; /* Tomate */
+  text-align: center; /* Centralizar o texto */
+  text-transform: uppercase; /* Transformar o texto em maiúsculas */
+  letter-spacing: 2px; /* Espaçamento entre letras */
   background: linear-gradient(90deg, rgba(255, 99, 71, 0.8), rgba(255, 140, 0, 0.8));
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  border-bottom: 3px solid #ff6347;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
+  border-bottom: 3px solid #ff6347; /* Borda inferior */
+  padding-bottom: 10px; /* Espaçamento inferior */
+  margin-bottom: 20px; /* Margem inferior */
 }
 
 .premiacoes-title:hover {
-  color: #ff4500;
-  border-bottom-color: #ff4500;
+  color: #ff4500; /* Cor ao passar o mouse */
+  border-bottom-color: #ff4500; /* Alterar a cor da borda ao passar o mouse */
 }
 
 
@@ -134,7 +131,9 @@ caption {
   font-weight: 600;
 }
 
-
+.melhor-da-rodada td {
+  border-bottom: 1px solid #ddd;
+}
 
 .melhor-da-rodada caption {
   font-weight: bold;
@@ -171,7 +170,12 @@ caption {
 
 
 
-
+section table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
 
 section th,
 section td {
@@ -184,12 +188,15 @@ section th {
   font-weight: 600;
 }
 
-
+section td {
+  border-bottom: 1px solid #ddd;
+}
 
 caption {
   font-weight: bold;
   margin: 8px 0;
   font-size: 16px;
+  background-color: #073841;
 }
 
 .imgEscudo {
@@ -216,97 +223,4 @@ th.d-flex {
   height: 28px;
 }
 
-
-
-
-
-
-
-
-
-/*  TABELAS MODO CLARO */
-body:not(.dark-mode) table {
-  background-color: #fff;
-}
-body:not(.dark-mode) th,
-body:not(.dark-mode) td {
-  border-bottom: 1px solid #ddd;
-}
-
- /* TABELAS MODO ESCURO - ESTILO FANTASY */
-body.dark-mode table {
-  background-color: #0c1e36 !important;
-  color: #f1f1f1 !important;
-  border-collapse: collapse;
-  font-size: 14px;
-}
-
-body.dark-mode th {
-  background-color: #122640 !important;
-  color: #ffffff !important;
-}
-
-body.dark-mode td {
-  border-bottom: 1px solid #1a2c48 !important;
-}
-
-body.dark-mode tbody tr:nth-child(even) {
-  background-color: #0e223a !important;
-}
-
-body.dark-mode tbody tr:nth-child(odd) {
-  background-color: #0c1e36 !important;
-}
-
-body.dark-mode tbody tr:hover {
-  background-color: #1d3557 !important;
-  cursor: pointer;
-}
-
-
-
-
-
-
-
-section {
-  background: #f5f6fa;
-  padding: 2rem;
-}
-.card {
-  background: #ececec;
-  border-radius: 16px;
-   box-shadow:
-    inset 4px 4px 8px rgba(0,0,0,0.1),
-    inset -4px -4px 8px rgba(255,255,255,0.7),
-    10px 10px 20px rgba(0,0,0,0.05),
-    -10px -10px 20px rgba(255,255,255,0.9); 
-
-
-  margin-bottom: 2rem;
-}
-.card-header {
-  text-align: center;
-  padding: 1rem 0;
-}
-.button-gradient {
-  display: inline-block;
-  padding: 0.5rem 1.5rem;
-  border-radius: 999px;
-  background: linear-gradient(135deg,#8E24AA,#D81B60);
-  color: white;
-  font-weight: bold;
-}
-.table {
-  background: white;
-  border-radius: 20px;
-  overflow: hidden;
-}
-.table thead {
-  background: #ffffff;
-  color: #555;
-}
-.table td {
-  padding: 1rem;
-}
 

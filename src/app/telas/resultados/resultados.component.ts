@@ -74,6 +74,14 @@ export class ResultadosComponent {
       img: 'assets/img/brivaldo.png',
       imgTam: 'imgTam'
     },
+       {
+      rodada: '8',
+      time: 'jmfut05',
+      cartoleiro: 'Jorginho',
+      pontos: '180,80',
+      img: 'assets/img/jorginho.png',
+      imgTam: 'imgTam'
+    },
 
 
   ]
@@ -96,7 +104,7 @@ export class ResultadosComponent {
       rodada: '1',
       time: 'Rodrigo FC 29',
       cartoleiro: 'Rodrigo',
-      pontos: '698,76',
+      pontos: '822,45',
       img: 'assets/img/rodrigo.png',
       premio: 'R$ 1.200,00',
     },
@@ -104,32 +112,32 @@ export class ResultadosComponent {
       rodada: '2',
       time: 'boyzinho04.fc',
       cartoleiro: 'Marcos Caspim',
-      pontos: '673,90',
+      pontos: '773,15',
       img: 'assets/img/boyzinh04.fc.png',
       premio: 'R$ 700,00',
     },
     {
       rodada: '3',
-      time: 'Imbatível4.7#',
-      cartoleiro: 'Sidcley Cavalcanti',
-      pontos: '657,12',
-      img: 'assets/img/sidcley.png',
+      time: 'AlahuAkbar Boom',
+      cartoleiro: 'Ali Mahmoud Baalbaki',
+      pontos: '765,45',
+      img: 'assets/img/ali.png',
       premio: 'R$ 385,00',
     },
     {
       rodada: '4',
-      time: 'bahea tricolor d aço',
-      cartoleiro: 'Antônio',
-      pontos: '656,60',
-      img: 'assets/img/antonio.png',
+      time: 'FLALIMOEIRO',
+      cartoleiro: 'Jacó',
+      pontos: '756,35',
+      img: 'assets/img/jaco.png',
       premio: 'R$ 250,00',
     },
     {
       rodada: '5',
-      time: 'Queimada dos Loiolas',
-      cartoleiro: 'Igor Loiola',
-      pontos: '647,24',
-      img: 'assets/img/igor.png',
+      time: 'jmfut05',
+      cartoleiro: 'Jorginho',
+      pontos: '754,87',
+      img: 'assets/img/jorginho.png',
       premio: 'R$ 150,00',
     },
 
@@ -145,11 +153,11 @@ export class ResultadosComponent {
   ListaMito = [
 
     {
-      rodada: '4',
-      time: 'Rodrigo FC 29',
-      cartoleiro: 'Rodrigo',
-      pontos: '138,66',
-      img: 'assets/img/rodrigo.png',
+      rodada: '8',
+      time: 'jmfut05',
+      cartoleiro: 'Jorginho',
+      pontos: '180,80',
+      img: 'assets/img/jorginho.png',
     },
   ]
 
@@ -165,7 +173,7 @@ export class ResultadosComponent {
       rodada: '-',
       time: 'Amorins V',
       cartoleiro: 'Ednaldo Amorim',
-      cartoletas: '190,82',
+      cartoletas: '211,50',
       img: 'assets/img/Amorins V.png'
     },
   ]

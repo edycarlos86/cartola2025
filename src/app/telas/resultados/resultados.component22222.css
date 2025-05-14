@@ -1,0 +1,370 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
+table {
+  width: 100%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+  overflow-x: auto;
+}
+th, td {
+  padding: 8px;
+  text-align: center;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+th {
+  background-color: #a34caf;
+  color: white;
+}
+img {
+  max-width: 30%;
+  height: auto;
+}
+
+.logo {
+  width: 60px;
+  margin-left: 30px;
+}
+
+.titulo {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+caption {
+  background-color: #073841;
+  /* background-color: #a34caf; */
+
+
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  caption-side: top;
+  border-bottom: 1px solid white;
+}
+
+
+.imgEscudo {
+  display: block;
+  margin: 0 auto;
+  margin-left: 0;
+}
+
+.imgTam {
+  width: 108px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  th, td {
+      padding: 6px;
+      font-size: 12px;
+  }
+}
+
+
+
+
+
+
+.premiacoes-title {
+  font-family: 'Arial', sans-serif;
+  font-size: 2.5em;
+  color: #ff6347;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: linear-gradient(90deg, rgba(255, 99, 71, 0.8), rgba(255, 140, 0, 0.8));
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  border-bottom: 3px solid #ff6347;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.premiacoes-title:hover {
+  color: #ff4500;
+  border-bottom-color: #ff4500;
+}
+
+
+
+
+
+
+
+
+
+.melhor-da-rodada table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.melhor-da-rodada th,
+.melhor-da-rodada td {
+  padding: 6px 8px;
+  text-align: left;
+}
+
+.melhor-da-rodada th {
+  background-color: #a34caf;
+  font-weight: 600;
+}
+
+
+
+.melhor-da-rodada caption {
+  font-weight: bold;
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.imgEscudo {
+  width: 24px;
+  height: 24px;
+  margin-right: 6px;
+}
+
+.melhor-da-rodada td.d-flex {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.titulo {
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 28px;
+  height: 28px;
+}
+
+
+
+
+
+
+
+
+
+section th,
+section td {
+  padding: 6px 8px;
+  text-align: left;
+}
+
+section th {
+  background-color:  #a34caf;
+  font-weight: 600;
+}
+
+
+
+caption {
+  font-weight: bold;
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.imgEscudo {
+  width: 24px;
+  height: 24px;
+  margin-right: 6px;
+}
+
+td.d-flex,
+th.d-flex {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.titulo {
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 28px;
+  height: 28px;
+}
+
+
+
+
+
+
+
+
+
+/*  TABELAS MODO CLARO */
+body:not(.dark-mode) table {
+  background-color: #fff;
+}
+body:not(.dark-mode) th,
+body:not(.dark-mode) td {
+  border-bottom: 1px solid #ddd;
+}
+
+ /* TABELAS MODO ESCURO - ESTILO FANTASY */
+body.dark-mode table {
+  background-color: #0c1e36 !important;
+  color: #f1f1f1 !important;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+body.dark-mode th {
+  background-color: #122640 !important;
+  color: #ffffff !important;
+}
+
+body.dark-mode td {
+  border-bottom: 1px solid #1a2c48 !important;
+}
+
+body.dark-mode tbody tr:nth-child(even) {
+  background-color: #0e223a !important;
+}
+
+body.dark-mode tbody tr:nth-child(odd) {
+  background-color: #0c1e36 !important;
+}
+
+body.dark-mode tbody tr:hover {
+  background-color: #1d3557 !important;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+section {
+  background: #f5f6fa;
+  padding: 2rem;
+}
+.card {
+  background: #ececec;
+  border-radius: 16px;
+   box-shadow:
+    inset 4px 4px 8px rgba(0,0,0,0.1),
+    inset -4px -4px 8px rgba(255,255,255,0.7),
+    10px 10px 20px rgba(0,0,0,0.05),
+    -10px -10px 20px rgba(255,255,255,0.9);
+
+
+  margin-bottom: 2rem;
+}
+.card-header {
+  text-align: center;
+  padding: 1rem 0;
+}
+.button-gradient {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg,#8E24AA,#D81B60);
+  color: white;
+  font-weight: bold;
+}
+.table {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.table thead {
+  background: #ffffff;
+  color: #555;
+}
+.table td {
+  padding: 1rem;
+}
+
+
+
+
+/* Container geral */
+section {
+  padding: 1rem;
+}
+
+/* Responsividade de imagem */
+.imgEscudo {
+  max-width: 2rem;
+  height: auto;
+  flex-shrink: 0;
+}
+
+/* Ajustes no header */
+.titulo {
+  text-align: center;
+}
+
+/* Informações do time */
+.info-time {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Cores e destaques */
+.text-premio {
+  color: #a34caf;
+}
+.text-pontos {
+  color: green;
+}
+
+/* Tabela responsiva (Bootstrap já cuida) */
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+}
+
+/* Fonte e espaçamento */
+th, td {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+/* Quebra de colunas em telas muito pequenas */
+@media (max-width: 400px) {
+  th, td {
+    font-size: 0.8rem;
+    padding: 0.3rem;
+  }
+  .info-time span {
+    font-size: 0.8rem;
+  }
+}
