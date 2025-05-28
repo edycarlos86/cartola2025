@@ -145,7 +145,7 @@ export class ResultadosComponent {
       time: 'Queimada dos Loiolas',
       cartoleiro: 'Igor Loiola',
       pontos: '908,86',
-      img: 'assets/img/jorginho.png',
+      img: 'assets/img/igor.png',
       premio: 'R$ 250,00',
     },
        {
