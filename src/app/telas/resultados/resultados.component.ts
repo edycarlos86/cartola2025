@@ -90,6 +90,14 @@ export class ResultadosComponent {
       img: 'assets/img/hendy.png',
       imgTam: 'imgTam'
     },
+    {
+      rodada: '10',
+      time: 'Val Sports.fc',
+      cartoleiro: 'Fábio Boy',
+      pontos: '87,67',
+      img: 'assets/img/fabinho.png',
+      imgTam: 'imgTam'
+    },
 
 
   ]
@@ -112,7 +120,7 @@ export class ResultadosComponent {
       rodada: '1',
       time: 'Rodrigo FC 29',
       cartoleiro: 'Rodrigo',
-      pontos: '904,32',
+      pontos: '970,89',
       img: 'assets/img/rodrigo.png',
       premio: 'R$ 1.200,00',
     },
@@ -120,7 +128,7 @@ export class ResultadosComponent {
       rodada: '2',
       time: 'boyzinho04.fc',
       cartoleiro: 'Marcos Caspim',
-      pontos: '847,92',
+      pontos: '921,79',
       img: 'assets/img/boyzinh04.fc.png',
       premio: 'R$ 700,00',
     },
@@ -128,36 +136,26 @@ export class ResultadosComponent {
       rodada: '3',
       time: 'AlahuAkbar Boom',
       cartoleiro: 'Ali Mahmoud Baalbaki',
-      pontos: '846,92',
+      pontos: '920,69',
       img: 'assets/img/ali.png',
       premio: 'R$ 385,00',
     },
-       {
+    {
       rodada: '4',
-      time: 'jmfut05',
-      cartoleiro: 'Jorginho',
-      pontos: '839,45',
+      time: 'Queimada dos Loiolas',
+      cartoleiro: 'Igor Loiola',
+      pontos: '908,86',
       img: 'assets/img/jorginho.png',
       premio: 'R$ 250,00',
     },
-
-    {
+       {
       rodada: '5',
-      time: 'Edytricoloor',
-      cartoleiro: 'Edy',
-      pontos: '831,82',
-      img: 'assets/img/edytricoloor.png',
+      time: 'jmfut05',
+      cartoleiro: 'Jorginho',
+      pontos: '906,12',
+      img: 'assets/img/jorginho.png',
       premio: 'R$ 150,00',
-    },
-
-
-
-
-
-
-
-
-  ]
+    },  ]
 
   ListaMito = [
 
@@ -182,7 +180,7 @@ export class ResultadosComponent {
       rodada: '-',
       time: 'Amorins V',
       cartoleiro: 'Ednaldo Amorim',
-      cartoletas: '223,89',
+      cartoletas: '229,75',
       img: 'assets/img/Amorins V.png'
     },
   ]
