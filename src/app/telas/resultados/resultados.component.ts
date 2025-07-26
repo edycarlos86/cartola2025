@@ -138,6 +138,14 @@ export class ResultadosComponent {
       img: 'assets/img/wellington.png',
       imgTam: 'imgTam'
     },
+    {
+      rodada: '16',
+      time: 'boyzinh04.fc',
+      cartoleiro: 'Marcos Carpim',
+      pontos: '94,12',
+      img: 'assets/img/boyzinh04.fc.png',
+      imgTam: 'imgTam'
+    },
 
 
 
@@ -161,7 +169,7 @@ export class ResultadosComponent {
       rodada: '1',
       time: 'Rodrigo FC 29',
       cartoleiro: 'Rodrigo',
-      pontos: '1.435,16',
+      pontos: '1.506,83',
       img: 'assets/img/rodrigo.png',
       premio: 'R$ 1.200,00',
     },
@@ -169,7 +177,7 @@ export class ResultadosComponent {
       rodada: '2',
       time: 'boyzinho04.fc',
       cartoleiro: 'Marcos Caspim',
-      pontos: '1.411,23',
+      pontos: '1.505,35',
       img: 'assets/img/boyzinh04.fc.png',
       premio: 'R$ 700,00',
     },
@@ -177,7 +185,7 @@ export class ResultadosComponent {
       rodada: '3',
       time: 'FLALIMOEIRO',
       cartoleiro: 'Jacó',
-      pontos: '1.396,98',
+      pontos: '1.476,51',
       img: 'assets/img/jaco.png',
       premio: 'R$ 385,00',
     },
@@ -185,7 +193,7 @@ export class ResultadosComponent {
       rodada: '4',
       time: 'Andrei 87FC',
       cartoleiro: 'Andrei',
-      pontos: '1.384,37',
+      pontos: '1.470,99',
       img: 'assets/img/andrei.png',
       premio: 'R$ 250,00',
     },
@@ -193,7 +201,7 @@ export class ResultadosComponent {
       rodada: '5',
       time: 'Bidalão FC',
       cartoleiro: 'Adballa',
-      pontos: '1.377,22',
+      pontos: '1.451,89',
       img: 'assets/img/abdalla.png',
       premio: 'R$ 150,00',
     },  ]
@@ -221,7 +229,7 @@ export class ResultadosComponent {
       rodada: '-',
       time: 'Amorins V',
       cartoleiro: 'Ednaldo Amorim',
-      cartoletas: '261,94',
+      cartoletas: '267,68',
       img: 'assets/img/Amorins V.png'
     },
   ]
