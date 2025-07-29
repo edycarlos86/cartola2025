@@ -58,35 +58,40 @@ export class ClassificacaoComponent {
       fileUrlRodada: 'assets/pdf/rodada10-rodada.pdf',
       fileUrlGeral: 'assets/pdf/rodada10-geral.pdf'
     },
-        {
+    {
       rodada: '11',
       fileUrlRodada: 'assets/pdf/rodada11-rodada.pdf',
       fileUrlGeral: 'assets/pdf/rodada11-geral.pdf'
     },
-            {
+    {
       rodada: '12',
       fileUrlRodada: 'assets/pdf/rodada12-rodada.pdf',
       fileUrlGeral: 'assets/pdf/rodada12-geral.pdf'
     },
-            {
+    {
       rodada: '13',
       fileUrlRodada: 'assets/pdf/rodada13-rodada.pdf',
       fileUrlGeral: 'assets/pdf/rodada13-geral.pdf'
     },
-            {
+    {
       rodada: '14',
       fileUrlRodada: 'assets/pdf/rodada14-rodada.pdf',
       fileUrlGeral: 'assets/pdf/rodada14-geral.pdf'
     },
-            {
+    {
       rodada: '15',
       fileUrlRodada: 'assets/pdf/rodada15-rodada.pdf',
       fileUrlGeral: 'assets/pdf/rodada15-geral.pdf'
     },
-                {
+    {
       rodada: '16',
       fileUrlRodada: 'assets/pdf/rodada16-rodada.pdf',
       fileUrlGeral: 'assets/pdf/rodada16-geral.pdf'
+    },
+        {
+      rodada: '17',
+      fileUrlRodada: 'assets/pdf/rodada17-rodada.pdf',
+      fileUrlGeral: 'assets/pdf/rodada17-geral.pdf'
     },
 
 

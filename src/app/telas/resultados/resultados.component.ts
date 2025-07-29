@@ -146,6 +146,14 @@ export class ResultadosComponent {
       img: 'assets/img/boyzinh04.fc.png',
       imgTam: 'imgTam'
     },
+        {
+      rodada: '17',
+      time: 'Amorins V',
+      cartoleiro: 'Ednaldo Silva',
+      pontos: '93,44',
+      img: 'assets/img/Amorins V.png',
+      imgTam: 'imgTam'
+    },
 
 
 
@@ -169,7 +177,7 @@ export class ResultadosComponent {
       rodada: '1',
       time: 'Rodrigo FC 29',
       cartoleiro: 'Rodrigo',
-      pontos: '1.506,83',
+      pontos: '1.559,74',
       img: 'assets/img/rodrigo.png',
       premio: 'R$ 1.200,00',
     },
@@ -177,34 +185,35 @@ export class ResultadosComponent {
       rodada: '2',
       time: 'boyzinho04.fc',
       cartoleiro: 'Marcos Caspim',
-      pontos: '1.505,35',
+      pontos: '1.557,66',
       img: 'assets/img/boyzinh04.fc.png',
       premio: 'R$ 700,00',
     },
-    {
+        {
       rodada: '3',
-      time: 'FLALIMOEIRO',
-      cartoleiro: 'Jacó',
-      pontos: '1.476,51',
-      img: 'assets/img/jaco.png',
+      time: 'Andrei 87FC',
+      cartoleiro: 'Andrei',
+      pontos: '1.532,80',
+      img: 'assets/img/andrei.png',
       premio: 'R$ 385,00',
     },
     {
       rodada: '4',
-      time: 'Andrei 87FC',
-      cartoleiro: 'Andrei',
-      pontos: '1.470,99',
-      img: 'assets/img/andrei.png',
+      time: 'Queimada dos Loiolas',
+      cartoleiro: 'Igor Loiola',
+      pontos: '1.516,35',
+      img: 'assets/img/igor.png',
       premio: 'R$ 250,00',
     },
-       {
+        {
       rodada: '5',
-      time: 'Bidalão FC',
-      cartoleiro: 'Adballa',
-      pontos: '1.451,89',
-      img: 'assets/img/abdalla.png',
+      time: 'FLALIMOEIRO',
+      cartoleiro: 'Jacó',
+      pontos: '1.512,42',
+      img: 'assets/img/jaco.png',
       premio: 'R$ 150,00',
-    },  ]
+    },
+  ]
 
   ListaMito = [
 
@@ -229,7 +238,7 @@ export class ResultadosComponent {
       rodada: '-',
       time: 'Amorins V',
       cartoleiro: 'Ednaldo Amorim',
-      cartoletas: '267,68',
+      cartoletas: '278,91',
       img: 'assets/img/Amorins V.png'
     },
   ]
