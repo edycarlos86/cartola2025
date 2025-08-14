@@ -98,6 +98,11 @@ export class ClassificacaoComponent {
       fileUrlRodada: 'assets/pdf/rodada18-rodada.pdf',
       fileUrlGeral: 'assets/pdf/rodada18-geral.pdf'
     },
+                {
+      rodada: '19',
+      fileUrlRodada: 'assets/pdf/rodada19-rodada.pdf',
+      fileUrlGeral: 'assets/pdf/rodada19-geral.pdf'
+    },
 
 
   ]

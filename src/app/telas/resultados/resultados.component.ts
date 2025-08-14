@@ -162,22 +162,30 @@ export class ResultadosComponent {
       img: 'assets/img/andrei.png',
       imgTam: 'imgTam'
     },
+               {
+      rodada: '19',
+      time: 'BoladobetsFC',
+      cartoleiro: 'Filipe Bolado',
+      pontos: '88,91',
+      img: 'assets/img/filipe.png',
+      imgTam: 'imgTam'
+    },
 
 
 
   ]
 
 
-/*   ListaTurno1 = [
+   ListaTurno1 = [
     {
-      rodada: '1',
-      time: 'ZoioAGB',
-      cartoleiro: 'André Barros',
-      pontos: '1471,72',
-      img: 'assets/img/andre.webp',
+      rodada: '19',
+      time: 'Rodrigo FC 29',
+      cartoleiro: 'Rodrigo',
+      pontos: '1.736,89',
+      img: 'assets/img/rodrigo.png',
       premio: 'R$ 230,00',
-    }
-  ] */
+    },
+  ]
 
 
   ListaTop5 = [
@@ -185,7 +193,7 @@ export class ResultadosComponent {
       rodada: '1',
       time: 'Rodrigo FC 29',
       cartoleiro: 'Rodrigo',
-      pontos: '1.672,44',
+      pontos: '1.736,89',
       img: 'assets/img/rodrigo.png',
       premio: 'R$ 1.200,00',
     },
@@ -193,7 +201,7 @@ export class ResultadosComponent {
       rodada: '2',
       time: 'Andrei 87FC',
       cartoleiro: 'Andrei',
-      pontos: '1.654,10',
+      pontos: '1.713,30',
       img: 'assets/img/andrei.png',
       premio: 'R$ 700,00',
     },
@@ -201,7 +209,7 @@ export class ResultadosComponent {
       rodada: '3',
       time: 'boyzinho04.fc',
       cartoleiro: 'Marcos Caspim',
-      pontos: '1.641,36',
+      pontos: '1.703,91',
       img: 'assets/img/boyzinh04.fc.png',
       premio: 'R$ 385,00',
     },
@@ -210,16 +218,16 @@ export class ResultadosComponent {
       rodada: '4',
       time: 'Queimada dos Loiolas',
       cartoleiro: 'Igor Loiola',
-      pontos: '1.623,52',
+      pontos: '1.687,42',
       img: 'assets/img/igor.png',
       premio: 'R$ 250,00',
     },
         {
       rodada: '5',
-      time: 'Congal FC',
-      cartoleiro: 'Wellington Santos',
-      pontos: '1.594,85',
-      img: 'assets/img/wellington.png',
+      time: 'FLALIMOEIRO',
+      cartoleiro: 'Jacó',
+      pontos: '1.668,59',
+      img: 'assets/img/jaco.png',
       premio: 'R$ 150,00',
     },
   ]
@@ -247,42 +255,10 @@ export class ResultadosComponent {
       rodada: '-',
       time: 'Amorins V',
       cartoleiro: 'Ednaldo Amorim',
-      cartoletas: '286,03',
+      cartoletas: '292,03',
       img: 'assets/img/Amorins V.png'
     },
   ]
 
-  /* ListaMataMata = [
-    {
-      campeao: '1',
-      time: 'Edytricoloor',
-      cartoleiro: 'Edy',
-      pontos: '131,68',
-      img: 'assets/img/edy.webp'
-    },
-    {
-      campeao: '2',
-      time: 'Amorins 2.0T',
-      cartoleiro: 'Ednaldo',
-      img: 'assets/img/ednaldoT.webp'
-    },
-    {
-      campeao: '3',
-      time: 'Viniv sport clube',
-      cartoleiro: 'Vinicius',
-      img: 'assets/img/vinicius.webp'
-    },
-    {
-      campeao: '4',
-      time: 'Mulekes do Futebol FC',
-      cartoleiro: 'Wesllen',
-      img: 'assets/img/wesllen.webp'
-    },
-    {
-      campeao: '5',
-      time: 'Mundial Atletic Clube',
-      cartoleiro: 'Tony',
-      img: 'assets/img/tony.webp'
-    },
-  ] */
+
 }

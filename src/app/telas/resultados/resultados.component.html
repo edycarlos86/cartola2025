@@ -118,3 +118,35 @@
   </table>
 </section>
 
+
+
+
+
+<!-- 1º TURNO CAMPEÃO -->
+<section>
+  <table class="table table-hover">
+    <caption class="text-center">CAMPEÃO DO 1º TURNO</caption>
+    <thead>
+      <tr>
+        <th style="width: 2%;">Rodada</th>
+        <th style="width: 40%;">Time</th>
+        <th style="width: 20%;">Prêmio</th>
+        <th style="width: 20%;">Pontuação</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let turno1 of ListaTurno1">
+      <tr>
+        <td>{{ turno1.rodada }}</td>
+        <td class="d-flex align-items-center">
+          <img class="imgEscudo" src="{{ turno1.img }}" alt="Time 1">
+          <div style="display: flex; flex-direction: column; align-items: flex-start;">
+            <strong>{{ turno1.time }}</strong>
+            <span>{{ turno1.cartoleiro }}</span>
+          </div>
+        </td>
+        <td style="color: #a34caf;">R$ 230,00</td>
+        <td style="color: green;">{{ turno1.pontos }}</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
