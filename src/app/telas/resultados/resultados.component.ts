@@ -170,6 +170,14 @@ export class ResultadosComponent {
       img: 'assets/img/filipe.png',
       imgTam: 'imgTam'
     },
+                  {
+      rodada: '20',
+      time: 'Peladeiro da colina',
+      cartoleiro: 'Bruno Lobato',
+      pontos: '92,94',
+      img: 'assets/img/lobato.png',
+      imgTam: 'imgTam'
+    },
 
 
 
@@ -193,7 +201,7 @@ export class ResultadosComponent {
       rodada: '1',
       time: 'Rodrigo FC 29',
       cartoleiro: 'Rodrigo',
-      pontos: '1.736,89',
+      pontos: '1.807,45',
       img: 'assets/img/rodrigo.png',
       premio: 'R$ 1.200,00',
     },
@@ -201,32 +209,32 @@ export class ResultadosComponent {
       rodada: '2',
       time: 'Andrei 87FC',
       cartoleiro: 'Andrei',
-      pontos: '1.713,30',
+      pontos: '1.799,69',
       img: 'assets/img/andrei.png',
       premio: 'R$ 700,00',
     },
-    {
+        {
       rodada: '3',
+      time: 'Queimada dos Loiolas',
+      cartoleiro: 'Igor Loiola',
+      pontos: '1.1775,47',
+      img: 'assets/img/igor.png',
+      premio: 'R$ 385,00',
+    },
+    {
+      rodada: '4',
       time: 'boyzinho04.fc',
       cartoleiro: 'Marcos Caspim',
-      pontos: '1.703,91',
+      pontos: '1.764,77',
       img: 'assets/img/boyzinh04.fc.png',
-      premio: 'R$ 385,00',
+      premio: 'R$ 250,00',
     },
 
     {
-      rodada: '4',
-      time: 'Queimada dos Loiolas',
-      cartoleiro: 'Igor Loiola',
-      pontos: '1.687,42',
-      img: 'assets/img/igor.png',
-      premio: 'R$ 250,00',
-    },
-        {
       rodada: '5',
       time: 'FLALIMOEIRO',
       cartoleiro: 'Jacó',
-      pontos: '1.668,59',
+      pontos: '1.728,15',
       img: 'assets/img/jaco.png',
       premio: 'R$ 150,00',
     },
@@ -255,7 +263,7 @@ export class ResultadosComponent {
       rodada: '-',
       time: 'Amorins V',
       cartoleiro: 'Ednaldo Amorim',
-      cartoletas: '292,03',
+      cartoletas: '297,96',
       img: 'assets/img/Amorins V.png'
     },
   ]
