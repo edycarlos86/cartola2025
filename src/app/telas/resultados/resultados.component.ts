@@ -178,6 +178,14 @@ export class ResultadosComponent {
       img: 'assets/img/lobato.png',
       imgTam: 'imgTam'
     },
+                      {
+      rodada: '21',
+      time: 'VAPORR F.C',
+      cartoleiro: 'Alberto Luiz',
+      pontos: '213,96',
+      img: 'assets/img/vaporr.png',
+      imgTam: 'imgTam'
+    },
 
 
 
@@ -201,7 +209,7 @@ export class ResultadosComponent {
       rodada: '1',
       time: 'Rodrigo FC 29',
       cartoleiro: 'Rodrigo',
-      pontos: '1.807,45',
+      pontos: '2.012,31',
       img: 'assets/img/rodrigo.png',
       premio: 'R$ 1.200,00',
     },
@@ -209,32 +217,31 @@ export class ResultadosComponent {
       rodada: '2',
       time: 'Andrei 87FC',
       cartoleiro: 'Andrei',
-      pontos: '1.799,69',
+      pontos: '1.993,20',
       img: 'assets/img/andrei.png',
       premio: 'R$ 700,00',
     },
         {
       rodada: '3',
-      time: 'Queimada dos Loiolas',
-      cartoleiro: 'Igor Loiola',
-      pontos: '1.1775,47',
-      img: 'assets/img/igor.png',
-      premio: 'R$ 385,00',
-    },
-    {
-      rodada: '4',
       time: 'boyzinho04.fc',
       cartoleiro: 'Marcos Caspim',
-      pontos: '1.764,77',
+      pontos: '1.954,08',
       img: 'assets/img/boyzinh04.fc.png',
+      premio: 'R$ 385,00',
+    },
+        {
+      rodada: '4',
+      time: 'Queimada dos Loiolas',
+      cartoleiro: 'Igor Loiola',
+      pontos: '1.944,78',
+      img: 'assets/img/igor.png',
       premio: 'R$ 250,00',
     },
-
     {
       rodada: '5',
       time: 'FLALIMOEIRO',
       cartoleiro: 'Jacó',
-      pontos: '1.728,15',
+      pontos: '1.938,31',
       img: 'assets/img/jaco.png',
       premio: 'R$ 150,00',
     },
@@ -243,11 +250,11 @@ export class ResultadosComponent {
   ListaMito = [
 
     {
-      rodada: '8',
-      time: 'jmfut05',
-      cartoleiro: 'Jorginho',
-      pontos: '180,80',
-      img: 'assets/img/jorginho.png',
+      rodada: '21',
+      time: 'VAPORR F.C',
+      cartoleiro: 'Alberto',
+      pontos: '213,96',
+      img: 'assets/img/vaporr.png',
     },
   ]
 
@@ -263,7 +270,7 @@ export class ResultadosComponent {
       rodada: '-',
       time: 'Amorins V',
       cartoleiro: 'Ednaldo Amorim',
-      cartoletas: '297,96',
+      cartoletas: '306,79',
       img: 'assets/img/Amorins V.png'
     },
   ]
