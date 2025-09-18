@@ -194,6 +194,14 @@ export class ResultadosComponent {
       img: 'assets/img/rogerio.png',
       imgTam: 'imgTam'
     },
+                           {
+      rodada: '23',
+      time: 'FERRERFC',
+      cartoleiro: 'Felipe Lima',
+      pontos: '131,52',
+      img: 'assets/img/ferrerfc.png',
+      imgTam: 'imgTam'
+    },
 
 
 
@@ -217,7 +225,7 @@ export class ResultadosComponent {
       rodada: '1',
       time: 'Rodrigo FC 29',
       cartoleiro: 'Rodrigo',
-      pontos: '2.086,67',
+      pontos: '2.192,97',
       img: 'assets/img/rodrigo.png',
       premio: 'R$ 1.200,00',
     },
@@ -225,32 +233,33 @@ export class ResultadosComponent {
       rodada: '2',
       time: 'Andrei 87FC',
       cartoleiro: 'Andrei',
-      pontos: '2.069,56',
+      pontos: '2.154,41',
       img: 'assets/img/andrei.png',
       premio: 'R$ 700,00',
     },
-        {
+            {
       rodada: '3',
-      time: 'boyzinho04.fc',
-      cartoleiro: 'Marcos Caspim',
-      pontos: '2.023,74',
-      img: 'assets/img/boyzinh04.fc.png',
+      time: 'Queimada dos Loiolas',
+      cartoleiro: 'Igor Loiola',
+      pontos: '2.124,73',
+      img: 'assets/img/igor.png',
       premio: 'R$ 385,00',
     },
+
             {
       rodada: '4',
       time: 'Congal FC',
       cartoleiro: 'Wellington Santos',
-      pontos: '2.013,74',
+      pontos: '2.112,53',
       img: 'assets/img/wellington.png',
       premio: 'R$ 250,00',
     },
-        {
+            {
       rodada: '5',
-      time: 'Queimada dos Loiolas',
-      cartoleiro: 'Igor Loiola',
-      pontos: '2.012,44',
-      img: 'assets/img/igor.png',
+      time: 'boyzinho04.fc',
+      cartoleiro: 'Marcos Caspim',
+      pontos: '2.103,52',
+      img: 'assets/img/boyzinh04.fc.png',
       premio: 'R$ 150,00',
     },
 
@@ -279,7 +288,7 @@ export class ResultadosComponent {
       rodada: '-',
       time: 'Amorins V',
       cartoleiro: 'Ednaldo Amorim',
-      cartoletas: '316,19',
+      cartoletas: '323,68',
       img: 'assets/img/Amorins V.png'
     },
   ]
