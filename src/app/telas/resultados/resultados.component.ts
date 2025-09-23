@@ -202,6 +202,14 @@ export class ResultadosComponent {
       img: 'assets/img/ferrerfc.png',
       imgTam: 'imgTam'
     },
+                               {
+      rodada: '24',
+      time: 'Amorins F.C',
+      cartoleiro: 'Ednaldo Amorim',
+      pontos: '85,58',
+      img: 'assets/img/ednaldo.png',
+      imgTam: 'imgTam'
+    },
 
 
 
@@ -225,7 +233,7 @@ export class ResultadosComponent {
       rodada: '1',
       time: 'Rodrigo FC 29',
       cartoleiro: 'Rodrigo',
-      pontos: '2.192,97',
+      pontos: '2.236,16',
       img: 'assets/img/rodrigo.png',
       premio: 'R$ 1.200,00',
     },
@@ -233,7 +241,7 @@ export class ResultadosComponent {
       rodada: '2',
       time: 'Andrei 87FC',
       cartoleiro: 'Andrei',
-      pontos: '2.154,41',
+      pontos: '2.199,30',
       img: 'assets/img/andrei.png',
       premio: 'R$ 700,00',
     },
@@ -241,27 +249,28 @@ export class ResultadosComponent {
       rodada: '3',
       time: 'Queimada dos Loiolas',
       cartoleiro: 'Igor Loiola',
-      pontos: '2.124,73',
+      pontos: '2.196,81',
       img: 'assets/img/igor.png',
       premio: 'R$ 385,00',
     },
-
-            {
+                {
       rodada: '4',
-      time: 'Congal FC',
-      cartoleiro: 'Wellington Santos',
-      pontos: '2.112,53',
-      img: 'assets/img/wellington.png',
-      premio: 'R$ 250,00',
-    },
-            {
-      rodada: '5',
       time: 'boyzinho04.fc',
       cartoleiro: 'Marcos Caspim',
-      pontos: '2.103,52',
+      pontos: '2.169,09',
       img: 'assets/img/boyzinh04.fc.png',
+      premio: 'R$ 250,00',
+    },
+
+            {
+      rodada: '5',
+      time: 'Congal FC',
+      cartoleiro: 'Wellington Santos',
+      pontos: '2.157,30',
+      img: 'assets/img/wellington.png',
       premio: 'R$ 150,00',
     },
+
 
   ]
 
@@ -288,10 +297,8 @@ export class ResultadosComponent {
       rodada: '-',
       time: 'Amorins V',
       cartoleiro: 'Ednaldo Amorim',
-      cartoletas: '323,68',
+      cartoletas: '331,03',
       img: 'assets/img/Amorins V.png'
     },
   ]
-
-
 }
