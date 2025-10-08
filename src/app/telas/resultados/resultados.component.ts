@@ -219,6 +219,23 @@ export class ResultadosComponent {
       imgTam: 'imgTam'
 
     },
+            {
+      rodada: '26',
+      time: 'Val Sports.fc',
+      cartoleiro: 'Fábio Boy',
+      img: 'assets/img/fabinho.png',
+      pontos: '110,15',
+      imgTam: 'imgTam'
+
+    },
+        {
+      rodada: '27',
+      time: 'bahea tricolor d aço',
+      cartoleiro: 'Antônio',
+      pontos: '113,77',
+      img: 'assets/img/antonio.png',
+      imgTam: 'imgTam'
+    },
 
 
 
@@ -242,7 +259,7 @@ export class ResultadosComponent {
       rodada: '1',
       time: 'Rodrigo FC 29',
       cartoleiro: 'Rodrigo',
-      pontos: '2.296,25',
+      pontos: '2.476,27',
       img: 'assets/img/rodrigo.png',
       premio: 'R$ 1.200,00',
     },
@@ -250,7 +267,7 @@ export class ResultadosComponent {
       rodada: '2',
       time: 'Andrei 87FC',
       cartoleiro: 'Andrei',
-      pontos: '2.252,23',
+      pontos: '2.442,05',
       img: 'assets/img/andrei.png',
       premio: 'R$ 700,00',
     },
@@ -258,27 +275,29 @@ export class ResultadosComponent {
       rodada: '3',
       time: 'Queimada dos Loiolas',
       cartoleiro: 'Igor Loiola',
-      pontos: '2.247,95',
+      pontos: '2.431,38',
       img: 'assets/img/igor.png',
       premio: 'R$ 385,00',
     },
-                {
-      rodada: '4',
-      time: 'boyzinho04.fc',
-      cartoleiro: 'Marcos Caspim',
-      pontos: '2.222,09',
-      img: 'assets/img/boyzinh04.fc.png',
-      premio: 'R$ 250,00',
-    },
 
             {
-      rodada: '5',
+      rodada: '4',
       time: 'Congal FC',
       cartoleiro: 'Wellington Santos',
-      pontos: '2.210,84',
+      pontos: '2.421,75',
       img: 'assets/img/wellington.png',
+      premio: 'R$ 250,00',
+    },
+                {
+      rodada: '5',
+      time: 'boyzinho04.fc',
+      cartoleiro: 'Marcos Caspim',
+      pontos: '2.419,09',
+      img: 'assets/img/boyzinh04.fc.png',
       premio: 'R$ 150,00',
     },
+
+
 
 
   ]
@@ -306,7 +325,7 @@ export class ResultadosComponent {
       rodada: '-',
       time: 'Amorins V',
       cartoleiro: 'Ednaldo Amorim',
-      cartoletas: '335,32',
+      cartoletas: '348,15',
       img: 'assets/img/Amorins V.png'
     },
   ]
