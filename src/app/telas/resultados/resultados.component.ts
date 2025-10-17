@@ -236,6 +236,14 @@ export class ResultadosComponent {
       img: 'assets/img/antonio.png',
       imgTam: 'imgTam'
     },
+               {
+      rodada: '28',
+      time: 'Andrei 87FC',
+      cartoleiro: 'Andrei',
+      pontos: '144,44',
+      img: 'assets/img/andrei.png',
+      imgTam: 'imgTam'
+    },
 
 
 
@@ -259,7 +267,7 @@ export class ResultadosComponent {
       rodada: '1',
       time: 'Rodrigo FC 29',
       cartoleiro: 'Rodrigo',
-      pontos: '2.476,27',
+      pontos: '2.613,02',
       img: 'assets/img/rodrigo.png',
       premio: 'R$ 1.200,00',
     },
@@ -267,7 +275,7 @@ export class ResultadosComponent {
       rodada: '2',
       time: 'Andrei 87FC',
       cartoleiro: 'Andrei',
-      pontos: '2.442,05',
+      pontos: '2.586,48',
       img: 'assets/img/andrei.png',
       premio: 'R$ 700,00',
     },
@@ -275,25 +283,25 @@ export class ResultadosComponent {
       rodada: '3',
       time: 'Queimada dos Loiolas',
       cartoleiro: 'Igor Loiola',
-      pontos: '2.431,38',
+      pontos: '2.543,91',
       img: 'assets/img/igor.png',
       premio: 'R$ 385,00',
     },
-
-            {
+                    {
       rodada: '4',
-      time: 'Congal FC',
-      cartoleiro: 'Wellington Santos',
-      pontos: '2.421,75',
-      img: 'assets/img/wellington.png',
-      premio: 'R$ 250,00',
-    },
-                {
-      rodada: '5',
       time: 'boyzinho04.fc',
       cartoleiro: 'Marcos Caspim',
-      pontos: '2.419,09',
+      pontos: '2.542,84',
       img: 'assets/img/boyzinh04.fc.png',
+      premio: 'R$ 250,00',
+    },
+
+            {
+      rodada: '5',
+      time: 'Congal FC',
+      cartoleiro: 'Wellington Santos',
+      pontos: '2.540,69',
+      img: 'assets/img/wellington.png',
       premio: 'R$ 150,00',
     },
 
@@ -325,7 +333,7 @@ export class ResultadosComponent {
       rodada: '-',
       time: 'Amorins V',
       cartoleiro: 'Ednaldo Amorim',
-      cartoletas: '348,15',
+      cartoletas: '357,94',
       img: 'assets/img/Amorins V.png'
     },
   ]
