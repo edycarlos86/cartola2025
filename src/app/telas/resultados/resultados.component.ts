@@ -252,6 +252,22 @@ export class ResultadosComponent {
       img: 'assets/img/rogerio.png',
       imgTam: 'imgTam'
     },
+             {
+      rodada: '30',
+      time: 'Siid SFC',
+      cartoleiro: 'Siid Gomez',
+      pontos: '110,80',
+      img: 'assets/img/Siid.png',
+      imgTam: 'imgTam'
+    },
+                 {
+      rodada: '31',
+      time: 'AlahuAkbar FC',
+      cartoleiro: 'Ali Mohammed',
+      pontos: '108,67',
+      img: 'assets/img/ali.png',
+      imgTam: 'imgTam'
+    },
 
 
 
@@ -275,7 +291,7 @@ export class ResultadosComponent {
       rodada: '1',
       time: 'Rodrigo FC 29',
       cartoleiro: 'Rodrigo',
-      pontos: '2.712,73',
+      pontos: '2.868,21',
       img: 'assets/img/rodrigo.png',
       premio: 'R$ 1.200,00',
     },
@@ -283,7 +299,7 @@ export class ResultadosComponent {
       rodada: '2',
       time: 'Andrei 87FC',
       cartoleiro: 'Andrei',
-      pontos: '2.2681,03',
+      pontos: '2.829,29',
       img: 'assets/img/andrei.png',
       premio: 'R$ 700,00',
     },
@@ -291,26 +307,26 @@ export class ResultadosComponent {
       rodada: '3',
       time: 'Congal FC',
       cartoleiro: 'Wellington Santos',
-      pontos: '2.652,97',
+      pontos: '2.796,22',
       img: 'assets/img/wellington.png',
       premio: 'R$ 385,00',
     },
 
                     {
       rodada: '4',
-      time: 'boyzinho04.fc',
-      cartoleiro: 'Marcos Caspim',
-      pontos: '2.639,06',
-      img: 'assets/img/boyzinh04.fc.png',
+      time: 'Bidalão FC',
+      cartoleiro: 'Abdalla',
+      pontos: '2.781,78',
+      img: 'assets/img/adballa.png',
       premio: 'R$ 250,00',
     },
 
-            {
+                    {
       rodada: '5',
-      time: 'Queimada dos Loiolas',
-      cartoleiro: 'Igor Loiola',
-      pontos: '2.613,20',
-      img: 'assets/img/igor.png',
+      time: 'boyzinho04.fc',
+      cartoleiro: 'Marcos Caspim',
+      pontos: '2.778,52',
+      img: 'assets/img/boyzinh04.fc.png',
       premio: 'R$ 150,00',
     },
 
@@ -342,7 +358,7 @@ export class ResultadosComponent {
       rodada: '-',
       time: 'Amorins V',
       cartoleiro: 'Ednaldo Amorim',
-      cartoletas: '367,45',
+      cartoletas: '391,13',
       img: 'assets/img/Amorins V.png'
     },
   ]
