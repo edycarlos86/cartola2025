@@ -268,6 +268,22 @@ export class ResultadosComponent {
       img: 'assets/img/ali.png',
       imgTam: 'imgTam'
     },
+                     {
+      rodada: '32',
+      time: 'Queimada dos Loiolas',
+      cartoleiro: 'Igor Loiola',
+      pontos: '127,34',
+      img: 'assets/img/igor.png',
+      imgTam: 'imgTam'
+    },
+                     {
+      rodada: '33',
+      time: 'Galáticos Arapuá FC',
+      cartoleiro: 'Rafael Santos',
+      pontos: '95,22',
+      img: 'assets/img/rafaelsantos.png',
+      imgTam: 'imgTam'
+    },
 
 
 
@@ -291,7 +307,7 @@ export class ResultadosComponent {
       rodada: '1',
       time: 'Rodrigo FC 29',
       cartoleiro: 'Rodrigo',
-      pontos: '2.868,21',
+      pontos: '3.041,86',
       img: 'assets/img/rodrigo.png',
       premio: 'R$ 1.200,00',
     },
@@ -299,36 +315,36 @@ export class ResultadosComponent {
       rodada: '2',
       time: 'Andrei 87FC',
       cartoleiro: 'Andrei',
-      pontos: '2.829,29',
+      pontos: '2.993,81',
       img: 'assets/img/andrei.png',
       premio: 'R$ 700,00',
     },
-                {
+                        {
       rodada: '3',
-      time: 'Congal FC',
-      cartoleiro: 'Wellington Santos',
-      pontos: '2.796,22',
-      img: 'assets/img/wellington.png',
-      premio: 'R$ 385,00',
-    },
-
-                    {
-      rodada: '4',
       time: 'Bidalão FC',
       cartoleiro: 'Abdalla',
-      pontos: '2.781,78',
+      pontos: '2.981,05',
       img: 'assets/img/adballa.png',
-      premio: 'R$ 250,00',
+      premio: 'R$ 385,00',
     },
-
-                    {
-      rodada: '5',
+                        {
+      rodada: '4',
       time: 'boyzinho04.fc',
       cartoleiro: 'Marcos Caspim',
-      pontos: '2.778,52',
+      pontos: '2.2972,67',
       img: 'assets/img/boyzinh04.fc.png',
+      premio: 'R$ 250,00',
+    },
+                {
+      rodada: '5',
+      time: 'Congal FC',
+      cartoleiro: 'Wellington Santos',
+      pontos: '2.969,48',
+      img: 'assets/img/wellington.png',
       premio: 'R$ 150,00',
     },
+
+
 
 
 
@@ -358,7 +374,7 @@ export class ResultadosComponent {
       rodada: '-',
       time: 'Amorins V',
       cartoleiro: 'Ednaldo Amorim',
-      cartoletas: '391,13',
+      cartoletas: '408,89',
       img: 'assets/img/Amorins V.png'
     },
   ]

@@ -148,6 +148,31 @@ export class ClassificacaoComponent {
       fileUrlRodada: 'assets/pdf/rodada28-rodada.pdf',
       fileUrlGeral: 'assets/pdf/rodada28-geral.pdf'
     },
+                                                {
+      rodada: '29',
+      fileUrlRodada: 'assets/pdf/rodada29-rodada.pdf',
+      fileUrlGeral: 'assets/pdf/rodada29-geral.pdf'
+    },
+                                                {
+      rodada: '30',
+      fileUrlRodada: 'assets/pdf/rodada30-rodada.pdf',
+      fileUrlGeral: 'assets/pdf/rodada30-geral.pdf'
+    },
+                                                {
+      rodada: '31',
+      fileUrlRodada: 'assets/pdf/rodada31-rodada.pdf',
+      fileUrlGeral: 'assets/pdf/rodada31-geral.pdf'
+    },
+                                                    {
+      rodada: '32',
+      fileUrlRodada: 'assets/pdf/rodada32-rodada.pdf',
+      fileUrlGeral: 'assets/pdf/rodada32-geral.pdf'
+    },
+                                                    {
+      rodada: '33',
+      fileUrlRodada: 'assets/pdf/rodada33-rodada.pdf',
+      fileUrlGeral: 'assets/pdf/rodada33-geral.pdf'
+    },
   ]
 
 
