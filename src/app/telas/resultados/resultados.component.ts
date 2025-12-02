@@ -284,6 +284,30 @@ export class ResultadosComponent {
       img: 'assets/img/rafaelsantos.png',
       imgTam: 'imgTam'
     },
+                         {
+      rodada: '34',
+      time: 'BamBuXaH',
+      cartoleiro: 'Darlan',
+      pontos: '120,07',
+      img: 'assets/img/darlan.png',
+      imgTam: 'imgTam'
+    },
+                   {
+      rodada: '35',
+      time: 'Andrei 87FC',
+      cartoleiro: 'Andrei',
+      pontos: '139,84',
+      img: 'assets/img/andrei.png',
+      imgTam: 'imgTam'
+    },
+                       {
+      rodada: '36',
+      time: 'Porrinha 92 FC',
+      cartoleiro: 'Crizan Cesar',
+      pontos: '131,83',
+      img: 'assets/img/crizan.png',
+      imgTam: 'imgTam'
+    },
 
 
 
@@ -307,46 +331,44 @@ export class ResultadosComponent {
       rodada: '1',
       time: 'Rodrigo FC 29',
       cartoleiro: 'Rodrigo',
-      pontos: '3.041,86',
+      pontos: '3.388,67',
       img: 'assets/img/rodrigo.png',
       premio: 'R$ 1.200,00',
     },
-            {
+      {
       rodada: '2',
-      time: 'Andrei 87FC',
-      cartoleiro: 'Andrei',
-      pontos: '2.993,81',
-      img: 'assets/img/andrei.png',
-      premio: 'R$ 700,00',
-    },
-                        {
-      rodada: '3',
-      time: 'Bidalão FC',
-      cartoleiro: 'Abdalla',
-      pontos: '2.981,05',
-      img: 'assets/img/adballa.png',
-      premio: 'R$ 385,00',
-    },
-                        {
-      rodada: '4',
       time: 'boyzinho04.fc',
       cartoleiro: 'Marcos Caspim',
-      pontos: '2.2972,67',
+      pontos: '3.322,38',
       img: 'assets/img/boyzinh04.fc.png',
-      premio: 'R$ 250,00',
+      premio: 'R$ 700,00',
     },
-                {
-      rodada: '5',
+
+            {
+      rodada: '3',
+      time: 'Andrei 87FC',
+      cartoleiro: 'Andrei',
+      pontos: '3.311,52,81',
+      img: 'assets/img/andrei.png',
+      premio: 'R$ 385,00',
+    },
+                    {
+      rodada: '4',
       time: 'Congal FC',
       cartoleiro: 'Wellington Santos',
-      pontos: '2.969,48',
+      pontos: '3.281,52',
       img: 'assets/img/wellington.png',
-      premio: 'R$ 150,00',
+      premio: 'R$ 250,00',
     },
 
-
-
-
+                            {
+      rodada: '5',
+      time: 'Bidalão FC',
+      cartoleiro: 'Abdalla',
+      pontos: '3.279,66',
+      img: 'assets/img/adballa.png',
+      premio: 'R$ 150,00',
+    },
 
 
   ]
@@ -374,7 +396,7 @@ export class ResultadosComponent {
       rodada: '-',
       time: 'Amorins V',
       cartoleiro: 'Ednaldo Amorim',
-      cartoletas: '408,89',
+      cartoletas: '437,94',
       img: 'assets/img/Amorins V.png'
     },
   ]
